@@ -7,6 +7,9 @@ name = "pypi"
 
 [packages]
 opencv-python = "*"
+sklearn = "*"
+scipy = "*"
+pillow = "*"
 
 [requires]
 python_version = "2.7"

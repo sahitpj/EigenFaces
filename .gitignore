@@ -1,0 +1,4 @@
+#systems files
+.DS_Store
+#data
+data/

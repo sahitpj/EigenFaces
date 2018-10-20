@@ -2,4 +2,4 @@
 Understanding PCA
 
 
-Dataset Courtesy - Olivetti Research Laboratory.
+Dataset courtesy - http://vis-www.cs.umass.edu/lfw/
