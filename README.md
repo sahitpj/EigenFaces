@@ -1,4 +1,4 @@
-# EigenFaces
+# Eigen Faces
 The following is a Demonstration of Principal Component Analysis, dimensional reduction. The following has been developed in python2.7 however can be run on machines which use Python3, by using a python virtual environment
 
 This project is based on the following paper:- 
@@ -45,3 +45,5 @@ The detailed report about this, can be viewd [here](REPORT.md)
 or can be found at https://sahitpj.github.io/EigenFaces
 
 If you like this repository and find it useful, please consider &#9733; starring it :)
+
+project repo link - https://github.com/sahitpj/EigenFaces

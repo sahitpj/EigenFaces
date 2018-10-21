@@ -26,7 +26,7 @@ Thus mathematically we wish to find the principal components of the distribution
 
 Thus our images, can be represented as a linear combination of our selected eigen faces. 
 
-## Developing the Model
+## Developing the Model 
 
 ### Initialization
 
@@ -84,7 +84,7 @@ image height and width 50 37
 
 Now that we have our data matrix, we now apply the Principal Component Analysis method to obtain our Eigen Face vectors. In order to do so we first need to find our eigen vectors. 
 
-1. First we normalize our matrix, with respect to each feature. For this we use the sklearn normalize function.
+1. First we normalize our matrix, with respect to each feature. For this we use the sklearn normalize function. This subtracts the meam from the data and divides it by the variance
 
 ```
 from sklearn.preprocessing import normalize
@@ -99,7 +99,7 @@ sk_norm = normalize(data, axis=0)
 Cov = 1/m(X'X)
 ```
 
-where m is the number of sample, X is the feature matrix. We now perform this with the help of the numpy module.
+where m is the number of samples, X is the feature matrix and X' is the transpose of the feature matrix. We now perform this with the help of the numpy module.
 
 ```
 import numpy as np 
